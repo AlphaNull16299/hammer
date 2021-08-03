@@ -78,7 +78,7 @@ def usage():
 	-s : server ip
 	-p : port default 80
 	-t : turbo default 135 
-        ex: python3 hammer.py -s 1.1.1.1 -p 80 -t 135\033[0m''')
+        ex : python3 hammer.py -s 1.1.1.1 -p 80 -t 135\033[0m''')
 	sys.exit()
 
 
