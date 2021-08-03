@@ -51,7 +51,7 @@ def down_it(item):
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mn応答がありません！ダウンした可能性があります。\033[0m")
+		print("\033[91m応答がありません！ダウンした可能性があります。\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -71,14 +71,14 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1
-　Method:HTT Flood
+	print (''' \033[92mHammer Dos Script 
+	Method:HTT Flood
 	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
-	-t : turbo default 135 \033[0m
-  ex: python3 hammer.py -s 1.1.1.1 -p 80 -t 135''')
+	-t : turbo default 135 
+        ex: python3 hammer.py -s 1.1.1.1 -p 80 -t 135\033[0m''')
 	sys.exit()
 
 
